@@ -56,8 +56,8 @@ async function init() {
       //        type: 'base',
       //        branch: 'base',
       //        url: {
-      //           gitee: 'https://gitee.com/codercup/unibest.git',
-      //           github: 'https://github.com/codercup/unibest.git'
+      //           gitee: 'https://gitee.com/feige996/unibest.git',
+      //           github: 'https://github.com/feige996/unibest.git'
       //     }
       //   }
       // }
@@ -102,8 +102,8 @@ async function init() {
         type: 'base',
         branch: 'base',
         url: {
-          gitee: 'https://gitee.com/codercup/unibest.git',
-          github: 'https://github.com/codercup/unibest.git',
+          gitee: 'https://gitee.com/feige996/unibest.git',
+          github: 'https://github.com/feige996/unibest.git',
         },
       },
     }
