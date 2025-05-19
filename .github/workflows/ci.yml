@@ -31,7 +31,7 @@ jobs:
         run: npm i -g @antfu/ni
 
       - name: Install
-        run: pnpm install --no-frozen-lockfile
+        run: ni
 
       - name: Lint
         run: nr lint
@@ -54,7 +54,7 @@ jobs:
         run: npm i -g @antfu/ni
 
       - name: Install
-        run: pnpm install --no-frozen-lockfile
+        run: ni
 
       - name: Typecheck
         run: nr typecheck
@@ -84,7 +84,7 @@ jobs:
         run: npm i -g @antfu/ni
 
       - name: Install
-        run: pnpm install --no-frozen-lockfile
+        run: ni
 
       - name: Build
         run: nr build
