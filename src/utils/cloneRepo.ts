@@ -19,7 +19,7 @@ async function cloneRepo(gitUrls: string[], branch: string, localPath: string): 
     try {
       await new Promise<void>((resolve, reject) => {
         const execStr = `git clone -b ${branch} ${gitUrl} "${localPath}"`
-        // const execStr = `npx degit codercup/unibest#${branch}`
+        // const execStr = `npx degit feige996/unibest#${branch}`
         // console.log(`${green('execStr:')} ${execStr}`)
 
         exec(execStr, async (error) => {
